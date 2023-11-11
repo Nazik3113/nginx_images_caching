@@ -55,6 +55,6 @@ docker-compose up -d
 
 ### Sixth request(different photo in cache):
 
-- Response: ![First request response.](./example_images/photo_2.jpg)
+- Response: ![First request response.](./example_images/photo_3.jpg)
 
 - Headers: ![First request headers.](./example_images/photo_cache_hit.jpg)
