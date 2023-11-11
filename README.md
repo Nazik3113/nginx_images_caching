@@ -6,6 +6,10 @@
 docker-compose up -d
 ```
 
+## Wisit this link to receive the image:
+
+[http://localhost:8077/frog.png](http://localhost:8077/frog.png)
+
 ### First Request: 
 
 - Response: ![First request response.](./example_images/photo_1.jpg)
@@ -43,7 +47,7 @@ docker-compose up -d
 
 - Headers: ![First request headers.](./example_images/photo_cache_hit.jpg)
 
-### Fifth request(rewriting cache):
+### Fifth request(rewriting cache with custom header `frog`):
 
 - Response: ![First request response.](./example_images/photo_2.jpg)
 
